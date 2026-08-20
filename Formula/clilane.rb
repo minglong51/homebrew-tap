@@ -3,8 +3,8 @@ class Clilane < Formula
 
   desc "Manage CLI agents and terminal tasks in background lanes"
   homepage "https://github.com/minglong51/clilane"
-  url "https://github.com/minglong51/clilane/releases/download/v0.2.0/clilane-0.2.0.tar.gz"
-  sha256 "cdaf2d1fc28cbf233e85d0a223403413235ab494de5df183b79dc1573428e289"
+  url "https://github.com/minglong51/clilane/releases/download/v0.2.1/clilane-0.2.1.tar.gz"
+  sha256 "15e700ad61d8e73ad44cdf47d5f052dac60cc53e9ffdf3b1cb6acf9a7825af68"
   license "MIT"
 
   depends_on :macos
