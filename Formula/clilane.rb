@@ -1,13 +1,12 @@
 class Clilane < Formula
   include Language::Python::Shebang
 
-  desc "Manage CLI agents and terminal tasks in background lanes"
+  desc "Run CLI agents and long tasks in tmux-backed lanes with crash-safe identity"
   homepage "https://github.com/minglong51/clilane"
-  url "https://github.com/minglong51/clilane/releases/download/v0.2.1/clilane-0.2.1.tar.gz"
-  sha256 "15e700ad61d8e73ad44cdf47d5f052dac60cc53e9ffdf3b1cb6acf9a7825af68"
+  url "https://github.com/minglong51/clilane/releases/download/v0.3.0/clilane-0.3.0.tar.gz"
+  sha256 "2a4c79e6db46036a7f386c19fb1f30cc1d56a8ce385fb98845a07a66f1519fd1"
   license "MIT"
 
-  depends_on :macos
   depends_on "python@3.14"
   depends_on "tmux"
 
