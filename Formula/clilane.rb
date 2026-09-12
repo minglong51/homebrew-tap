@@ -18,6 +18,7 @@ class Clilane < Formula
   test do
     ENV["CLILANE_STATE_HOME"] = (testpath/"state").to_s
     ENV["CLILANE_TMUX_SOCKET"] = "clilane-test-#{Process.pid}"
+    ENV["TMUX_TMPDIR"] = ENV.fetch("TMPDIR")
 
     assert_match "clilane #{version}", shell_output("#{bin}/clilane --version")
     system bin/"clilane", "run", "brew-test", "-C", testpath.to_s, "--",
