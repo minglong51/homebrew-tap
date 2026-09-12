@@ -3,8 +3,8 @@ class Clilane < Formula
 
   desc "Run CLI agents and long tasks in tmux-backed lanes with crash-safe identity"
   homepage "https://github.com/minglong51/clilane"
-  url "https://github.com/minglong51/clilane/releases/download/v0.11.1/clilane-0.11.1.tar.gz"
-  sha256 "610da1876007afddb55bd7bc0f7ce5c7815bf41a629d8c722e9f22422c8c1795"
+  url "https://github.com/minglong51/clilane/releases/download/v0.12.0/clilane-0.12.0.tar.gz"
+  sha256 "6b86d9e6b0b398b7ad776c7c2fc6f231736332e77bac4fd67ba8afb49fc51838"
   license "MIT"
 
   depends_on "python@3.14"
